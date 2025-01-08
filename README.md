@@ -54,6 +54,7 @@ Developed by: John Wilfred Thomas J W
 RegisterNumber: 24013517
 */
 full adder 
+```
 module EXP_4(sum, cout, a, b, cin);
 output sum;
 output cout;
@@ -80,7 +81,7 @@ assign w3=(~w1&bin);
 assign df=w1^bin;
 assign bo=w2|w3;
 endmodule
-
+```
 **RTL Schematic**
 ![image](https://github.com/user-attachments/assets/0534671c-9761-4359-ad27-94e55c4729b2)
 ![image](https://github.com/user-attachments/assets/b2f21bd2-4b31-4dd4-9043-d0c977cae10a)
